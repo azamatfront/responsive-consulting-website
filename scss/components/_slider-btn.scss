@@ -1,0 +1,58 @@
+.default-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #fff;
+  line-height: calc(24 / 14 * 100%);
+  letter-spacing: 0.25px;
+  border: 1px solid #ffc222;
+  padding: 10px 20px;
+  border-right-width: 21px;
+  position: relative;
+}
+
+.default-btn::after {
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  content: "\f054";
+  font-family: 'icomoon';
+  transform: translateY(-50%);
+}
+
+.slider-btn {
+  position: absolute;
+  top: 73.17%;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.slick-next,
+.slick-prev {
+  position: absolute;
+  cursor: pointer;
+  background: transparent;
+  font-family: 'icomoon';
+  color: #fff;
+}
+
+.slick-next {
+  right: 0;
+  &::after {
+    content: "\f054";
+  }
+}
+
+.slick-prev {
+  left: 0;
+  &::after {
+    content: "\f053";
+  }
+}
+
+.slick-disabled {
+  background: #ffc222;
+  color: #000;
+}

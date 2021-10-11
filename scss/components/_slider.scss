@@ -1,0 +1,46 @@
+.slider {
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/slider/02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+
+  &__container {}
+
+  &__inner {
+    position: relative;
+  }
+
+  &__item {}
+
+  .item-slider {
+
+    &__content {
+      text-align: center;
+      padding: 110px 0 0 0;
+      max-width: 665px;
+      margin: 0 auto;
+    }
+
+    &__title {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 30px;
+      font-family: "Roboto";
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      line-height: calc(36 / 30 * 100%);
+      margin: 0 0 28px 0;
+    }
+
+    &__text {
+      color: #d3d2d2;
+      font-size: 18px;
+      line-height: calc(24 / 18 * 100%);
+      margin: 0 0 48px 0;
+    }
+
+    &__btn {}
+  }
+}
