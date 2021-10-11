@@ -33,9 +33,10 @@
 .slick-prev {
   position: absolute;
   cursor: pointer;
-  background: transparent;
+  background: #ffc222;
+  color: #000;
   font-family: 'icomoon';
-  color: #fff;
+  
 }
 
 .slick-next {
@@ -53,6 +54,7 @@
 }
 
 .slick-disabled {
-  background: #ffc222;
-  color: #000;
+  background: transparent;
+  color: #fff;
+  cursor: default;
 }
